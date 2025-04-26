@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.qr-header input,
+.qr-header select {
+  padding: 10px;
+  width: 80%;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.qr-header button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.qr-body {
+  margin-top: 20px;
+}
